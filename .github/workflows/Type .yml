@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Deploy website to IIS
+        run: |
+          Remove-Item -Recurse -Force "C:\inetpub\wwwroot\*" -ErrorAction SilentlyContinue
+          Copy-Item -Path .\* -Destination "C:\inetpub\wwwroot" -Recurse
+          Write-Host "✅ Deployment completed successfully!"
