@@ -1,0 +1,121 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Icon styling */
+.icon i {
+    font-size: 80px;
+    color: #007BFF;
+    margin-bottom: 20px;
+}
+
+/* Login form heading */
+.login-form-head {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Social icons styling */
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #007BFF;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons i:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Form and input styling */
+.form {
+    margin-top: 20px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.input-container i {
+    font-size: 18px;
+    margin-right: 10px;
+    color: #888;
+}
+
+.input-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Login button styling */
+.login-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+.login-button a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Sign up link */
+.account {
+    font-size: 14px;
+    margin-top: 15px;
+    color: #555;
+}
+
+.account a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.account a:hover {
+    color: #0056b3;
+}

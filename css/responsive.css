@@ -1,0 +1,62 @@
+/* responsive.css */
+
+/* General Styles for Mobile Devices */
+body {
+    font-size: 14px; /* Adjust base font size for mobile */
+}
+
+/* Navbar adjustments */
+.navbar {
+    padding: 10px; /* Reduce padding for mobile */
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px; /* Reduce margin between nav items */
+}
+
+/* Carousel adjustments */
+.carousel-item img {
+    width: 100%; /* Ensure images are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* About Section */
+.container-xxl.py-5 {
+    padding: 20px; /* Reduce padding for mobile */
+}
+
+/* Service Section */
+.service-item {
+    margin-bottom: 20px; /* Add space between service items */
+}
+
+/* Footer adjustments */
+.footer {
+    padding: 20px; /* Reduce footer padding */
+}
+
+/* Media Queries for Specific Breakpoints */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack navbar items vertically */
+    }
+
+    .carousel-caption {
+        position: relative; /* Adjust caption position */
+        bottom: 0; /* Align to bottom */
+    }
+
+    .team-item {
+        margin-bottom: 15px; /* Space between team items */
+    }
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 1.5rem; /* Adjust heading size */
+    }
+
+    .btn {
+        width: 100%; /* Full-width buttons */
+    }
+}
